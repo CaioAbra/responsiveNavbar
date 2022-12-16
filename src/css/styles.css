@@ -1,0 +1,84 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bck-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%), url("../img/background.jpg");
+    background-color: rgb(34, 34, 34);
+    background-size: cover;
+    background-position: center;
+    max-width: 160rem;
+    height: 50rem;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem;
+}
+
+.nav>a {
+    margin-right: 2.5rem;
+    color: #ffffff;
+    transition: all 150ms ease-in-out;
+}
+
+.nav>a:last-child {
+    margin-right: 0;
+}
+
+.nav>a:hover {
+    color: rgb(179, 179, 179);
+}
+
+.logo {
+    color: #ffffff;
+    transition: all 150ms ease-in-out;
+}
+
+.logo:hover {
+    color: rgb(179, 179, 179);
+    transition: all 150ms ease-in-out;
+}
+
+.header-background {
+    backdrop-filter: blur(.375rem);
+    height: 5rem;
+}
+
+@media screen and (max-width:767px) {
+
+    .header,
+    .header-background {
+        display: none;
+    }
+}
+
+/* mobile menu */
+.mob-open,
+.mob-close {
+    width: 1.875rem;
+    height: 1.875rem;
+}
