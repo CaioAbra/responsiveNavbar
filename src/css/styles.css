@@ -82,3 +82,39 @@ a {
     width: 1.875rem;
     height: 1.875rem;
 }
+
+.mob-open {
+    position: fixed;
+    right: 1.875rem;
+    top: .9375rem;
+}
+
+.mob-list {
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.8125rem;
+
+    background-color: #2d2d2d;
+}
+
+.mob-list__item {
+    color: #ffffff;
+}
+
+.mob-list__item:first-child {
+    margin-bottom: 2.5rem;
+}
+
+.mob-close {
+    position: fixed;
+    right: 1.875rem;
+    top: .9375rem;
+    z-index: 5;
+}
