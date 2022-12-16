@@ -129,12 +129,12 @@ a {
 /* js */
 .opened {
     opacity: 1;
-    animation: openAnim 200 ease-in-out;
+    animation: openAnim 200ms ease-in-out;
 }
 
 .close {
     opacity: 0;
-    animation: closeAnim 200 ease-in-out;
+    animation: closeAnim 200ms ease-in-out;
 }
 
 /* animation */
